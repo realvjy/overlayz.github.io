@@ -14,11 +14,14 @@ const IndexPage = () => (
         <div className="gradient gradient-1" ></div>
         <div className="gradient gradient-2"></div>
         <div className="gradient gradient-3"></div>
+        <div className="gradient gradient-4"></div>
       </div>
       <div className="logo-wrapper">
-        <img src="/overlayz.svg" className="logo"/>
-        <h1>Design studio</h1>
-        <a href="http://twitter.com/realvjy" target="_blank">Contact Us</a>
+        <img src="/logo.svg" className="logo" />
+        <img src="/studio.svg" className="studio" />
+        <div className="link">
+          <a href="http://twitter.com/realvjy" target="_blank">Contact Us</a>
+        </div>
       </div>
     </div>
   </Layout>
